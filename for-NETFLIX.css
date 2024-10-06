@@ -1,0 +1,290 @@
+body{ 
+    background:url('NETFLIX_BG.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; 
+    position: relative;
+}
+#subscription{
+    display: inline-block;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+.container{
+    display: grid;
+    min-height:100vh;
+    position: static;
+    
+}
+.box{
+    display: inline-block;
+    position: relative;
+    place-self:center;
+    margin-top: 50px;
+    width:450px;
+    height: 550px;
+    background-color:hsla(0, 0%, 0%, 0.781);
+    color: white;
+    border-radius: 5px;
+   
+}
+input{
+    color:white;
+}
+#sign-in{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left:65px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#for-email{
+    display: inline-block;
+    position: absolute;
+    width:67%;
+    height: 10%;
+    top: 23%;
+    left: 65px;
+    background-color: hsla(0, 0%, 57%, 0.151);
+    border: 1px solid rgba(214, 209, 209, 0.658);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: medium;
+}
+#for-password{
+    display: inline-block;
+    width:67%;
+    height: 10%;
+    position: absolute;
+    top:40%;
+    left: 65px;
+    margin-top: -10px;
+    background-color:hsla(0, 0%, 57%, 0.151);
+    border:1px solid rgba(214, 209, 209, 0.658);
+    border-radius:5px;
+    padding-left:10px ;
+    font-size: medium;
+}
+#submit-sign-in{
+    display: inline-block;
+    width: 70%;
+    height: 45px;
+    position: absolute;
+    left:65px;
+    top: 53%;
+    text-align: center;
+    font-family: Arial;
+    font-size: large;
+    background-color: rgba(255, 0, 0, 0.863);
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    transition: 1s;
+}
+#submit-sign-in:hover{
+    border:1px solid antiquewhite;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: antiquewhite;
+    width: 65%;
+    left: 80px;
+}
+#or{
+    display: block;
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: center;
+    color:hsl(0, 1%, 50%);
+    margin-top: 65%;
+}
+#use-a-sign-in{
+    display: inline-block;
+    width:72%;
+    height: 40px;
+    position: absolute;
+    top:69%;
+    left: 65px;
+    border: none;
+    background-color: hsl(0, 0%, 43%);
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: 1s;
+}
+#use-a-sign-in:hover{
+    background-color: brown;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+#forgot-pass{
+    position: absolute;
+    top: 74%;
+    left: 33%;
+    font-family: sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+#forgot-pass:hover{
+    text-decoration: underline;
+}
+#remember-me{
+    position: absolute;
+    left: 63px;
+    top: 82%;
+}
+#Sign-up{
+    display: inline-block;
+    position: absolute;
+    top: 84%;
+    left:65px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color:hsl(0, 1%, 50%);
+}
+#for-sign-up{
+    color: white;
+}
+#for-sign-up:hover{
+    text-decoration: underline;
+}
+#learn-more{
+    display: inline-block;
+    width: 65%;
+    position: absolute;
+    top:89%;
+    left:65px;
+    font-family: sans-serif;
+    font-size: x-small;
+    font-weight: lighter;
+    color:hsl(0,1%,50%);
+
+}
+#for-learn-more{
+    color: white;
+}
+#for-learn-more:hover{
+    text-decoration: underline;
+}
+#container-footer{
+    display: inline-block;
+    width: 110%;
+    height:200px;
+    position: absolute;
+    margin-top: 0;
+    left: -10px;
+    background-color: black;
+    
+}
+footer{
+    font-family: sans-serif;
+    font-size: small;
+}
+.questions-contact{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: rgba(206, 199, 199, 0.712);
+    text-decoration: none;
+}
+.questions-contact:hover{
+    color: white;
+    text-decoration: underline;
+}
+.faq{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left:15px ;
+    color: rgba(206,199,199, 0.712);
+    text-decoration: underline;
+}
+.faq:hover{
+    color: white;
+}
+.term-use{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    color: rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.term-use:hover{
+    color: white;
+}
+.cookie-prefer{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top:53px;
+    left: 15px;
+    color: rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.cookie-prefer:hover{
+    color: white;
+}
+
+.help-center{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    color:rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.help-center:hover{
+   color: white;
+}
+.privacy{
+    display: inline-block;
+    text-decoration: underline;
+    position: absolute;
+    top:80px;
+    left: 50%;
+    color: rgba(206, 199, 199, 0.712);
+}
+.privacy:hover{
+    color: white;
+}
+.cor{
+    text-decoration: underline;
+    width: 50%;
+    position: absolute;
+    top:53px;
+    left:33.3%;
+    color: rgba(206, 199, 199, 0.712);
+}
+.cor:hover{
+    color: white;
+}
+#language{
+    display: inline-block;
+    width: 10%;
+    height: 12%;
+    position: absolute;
+    top: 75%;
+    left: 30px;
+    background-color: rgba(151, 147, 147, 0.76);
+    border-radius: 5px;
+    color: rgb(3, 3, 3);
+}
+#language:hover{
+    color: rgb(250, 244, 244);
+}

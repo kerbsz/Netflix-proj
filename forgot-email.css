@@ -1,0 +1,288 @@
+body{ 
+    background:url('NETFLIX_BG.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; 
+    position: relative;
+}
+#subscription{
+    display: inline-block;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+#sign-inn{
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-weight:100;
+    font-size: medium;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    left: 85%;
+    top: -2px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.492); 
+    transition: 0.5s;
+}
+#sign-inn:hover{
+    background-color: rgba(0, 0, 0, 0.609);
+    color: whitesmoke;
+}
+.container{
+    display: grid;
+    min-height:100vh;
+    position: static;
+    
+}
+.box{
+    display: inline-block;
+    position: relative;
+    place-self:center;
+    margin-top: 50px;
+    width:450px;
+    height: 500px;
+    background-color:hsla(0, 0%, 100%, 0.928);
+    border-radius: 5px;
+    font-family: sans-serif;
+   
+}
+#forgot-email{
+    font-family: sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 2%;
+    
+}
+#required{
+    display: inline-block;
+    width: 80%;
+    position: absolute;
+    top:10%;
+    left: 35px;
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight: normal;
+}
+#fname{
+    display: inline-block;
+    position: absolute;
+    font-size: medium;
+    font-weight: normal;
+    color: rgba(128, 128, 128, 0.901);
+    top: 25%;
+    left: 36px;
+}
+#lname{
+    display: inline-block;
+    position: absolute;
+    font-size: medium;
+    font-weight: normal;
+    color: rgba(128, 128, 128, 0.901);
+    top: 45%;
+    left: 36px;
+}
+#credit-devit{
+    display: inline-block;
+    position: absolute;
+    font-size: medium;
+    font-weight: normal;
+    color: rgba(128, 128, 128, 0.901);
+    top: 65%;
+    left: 36px;
+}
+#for-fname{
+    display: inline-block;
+    width: 80%;
+    height: 8%;
+    position: absolute;
+    top: 32%;
+    left: 35px; 
+    border: 1px solid rgba(128, 128, 128, 0.73);
+}
+#for-lname{
+    display: inline-block;
+    width: 80%;
+    height: 8%;
+    position: absolute;
+    top: 52%;
+    left: 35px; 
+    border: 1px solid rgba(128, 128, 128, 0.73);
+}
+#for-credit{
+    display: inline-block;
+    width: 80%;
+    height: 8%;
+    position: absolute;
+    top: 72%;
+    left: 35px; 
+    border: 1px solid rgba(128, 128, 128, 0.73);
+}
+#f-acc{
+    display: inline-block;
+    width: 25%;
+    height: 7%;
+    position: absolute;
+    background-color:rgba(8, 137, 242, 0.933);
+    top: 87%;
+    left: 40px;
+    border: none;
+    border-radius: 5px;
+}
+#cancel{
+    display: inline-block;
+    position: absolute;
+    width: 18%;
+    height: 6%;
+    top:87.5%;
+    left: 35%;
+    border: none;
+    background-color: rgb(176, 175, 175);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#cancel:hover{
+    background-color: rgb(222, 218, 218);
+}
+
+
+
+
+
+
+#learn{
+    display: inline;
+    width: 85%;
+    position: absolute;
+    top: 85%;
+    left:35px;
+    font-family: sans-serif;
+    color: rgb(4, 4, 4);
+}
+#learn-more{
+    color: rgb(9, 9, 9);
+    text-decoration: underline;
+}
+
+#container-footer{
+    display: inline-block;
+    width: 110%;
+    height:200px;
+    position: absolute;
+    margin-top: 0;
+    left: -10px;
+    background-color: black;
+    
+}
+footer{
+    font-family: sans-serif;
+    font-size: small;
+}
+.questions-contact{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: rgba(206, 199, 199, 0.712);
+    text-decoration: none;
+}
+.questions-contact:hover{
+    color: white;
+    text-decoration: underline;
+}
+.faq{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left:15px ;
+    color: rgba(206,199,199, 0.712);
+    text-decoration: underline;
+}
+.faq:hover{
+    color: white;
+}
+.term-use{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    color: rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.term-use:hover{
+    color: white;
+}
+.cookie-prefer{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top:53px;
+    left: 15px;
+    color: rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.cookie-prefer:hover{
+    color: white;
+}
+
+.help-center{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    color:rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.help-center:hover{
+   color: white;
+}
+.privacy{
+    display: inline-block;
+    text-decoration: underline;
+    position: absolute;
+    top:80px;
+    left: 50%;
+    color: rgba(206, 199, 199, 0.712);
+}
+.privacy:hover{
+    color: white;
+}
+.cor{
+    text-decoration: underline;
+    width: 50%;
+    position: absolute;
+    top:53px;
+    left:33.3%;
+    color: rgba(206, 199, 199, 0.712);
+}
+.cor:hover{
+    color: white;
+}
+#language{
+    display: inline-block;
+    width: 10%;
+    height: 12%;
+    position: absolute;
+    top: 75%;
+    left: 30px;
+    background-color: rgba(151, 147, 147, 0.76);
+    border-radius: 5px;
+    color: rgb(3, 3, 3);
+}
+#language:hover{
+    color: rgb(250, 244, 244);
+}

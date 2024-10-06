@@ -1,0 +1,261 @@
+
+body{ 
+    background:url('NETFLIX_BG.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; 
+    position: relative;
+}
+#subscription{
+    display: inline-block;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+#sign-inn{
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-weight:100;
+    font-size: medium;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    left: 85%;
+    top: -2px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.492); 
+    transition: 0.5s;
+}
+#sign-inn:hover{
+    background-color: rgba(0, 0, 0, 0.609);
+    color: whitesmoke;
+}
+.container{
+    display: grid;
+    min-height:100vh;
+    position: static;
+    
+}
+.box{
+    display: inline-block;
+    position: relative;
+    place-self:center;
+    margin-top: 50px;
+    width:450px;
+    height: 500px;
+    background-color:hsla(0, 0%, 100%, 0.928);
+    border-radius: 5px;
+   
+}
+#update{
+    font-family: sans-serif;
+    display: inline-block;
+    position: absolute;
+    font-size:30px;
+    left: 35px;
+    top: 20px;
+}
+#how{
+    display: inline-block;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    top: 19%;
+    left: 35px;
+}
+#pick{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    top: 30%;
+    left: 55px;
+}
+#instruction{
+    display: inline-block;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    top: 38%;
+    left: 35px;
+}
+#input-email{
+    display: inline-block;
+    width: 79%;
+    height: 5%;
+    position: absolute;
+    padding:10px;
+    top: 54%;
+    left: 35px;
+    border: 1px solid rgba(76, 75, 75, 0.376);
+    font-size: medium;
+    border-radius: 5px;
+}
+#email-me{
+    display: inline-block;
+    width: 84%;
+    height: 8%;
+    position: absolute;
+    top: 68%;
+    left: 35px;
+    background-color:rgba(8, 137, 242, 0.933);
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: medium; 
+    transition:0.5s;
+}
+#email-me:hover{
+    background-color: rgb(79, 171, 246);
+}
+#remember{
+    display: inline-block;
+    position: absolute;
+    top: 78%;
+    left: 36px;
+    font-family: sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgba(8, 137, 242, 0.933);
+
+}
+#remember:hover{
+    text-decoration: underline;
+}
+#learn{
+    display: inline;
+    width: 85%;
+    position: absolute;
+    top: 85%;
+    left:35px;
+    font-family: sans-serif;
+    color: rgb(4, 4, 4);
+}
+#learn-more{
+    color: rgb(9, 9, 9);
+    text-decoration: underline;
+}
+
+#container-footer{
+    display: inline-block;
+    width: 110%;
+    height:200px;
+    position: absolute;
+    margin-top: 0;
+    left: -10px;
+    background-color: black;
+    
+}
+footer{
+    font-family: sans-serif;
+    font-size: small;
+}
+.questions-contact{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: rgba(206, 199, 199, 0.712);
+    text-decoration: none;
+}
+.questions-contact:hover{
+    color: white;
+    text-decoration: underline;
+}
+.faq{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left:15px ;
+    color: rgba(206,199,199, 0.712);
+    text-decoration: underline;
+}
+.faq:hover{
+    color: white;
+}
+.term-use{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    color: rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.term-use:hover{
+    color: white;
+}
+.cookie-prefer{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top:53px;
+    left: 15px;
+    color: rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.cookie-prefer:hover{
+    color: white;
+}
+
+.help-center{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    color:rgba(206,199,199,0.712);
+    text-decoration: underline;
+}
+.help-center:hover{
+   color: white;
+}
+.privacy{
+    display: inline-block;
+    text-decoration: underline;
+    position: absolute;
+    top:80px;
+    left: 50%;
+    color: rgba(206, 199, 199, 0.712);
+}
+.privacy:hover{
+    color: white;
+}
+.cor{
+    text-decoration: underline;
+    width: 50%;
+    position: absolute;
+    top:53px;
+    left:33.3%;
+    color: rgba(206, 199, 199, 0.712);
+}
+.cor:hover{
+    color: white;
+}
+#language{
+    display: inline-block;
+    width: 10%;
+    height: 12%;
+    position: absolute;
+    top: 75%;
+    left: 30px;
+    background-color: rgba(151, 147, 147, 0.76);
+    border-radius: 5px;
+    color: rgb(3, 3, 3);
+}
+#language:hover{
+    color: rgb(250, 244, 244);
+}
